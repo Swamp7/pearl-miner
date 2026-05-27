@@ -6,7 +6,8 @@ NVIDIA tensor-core GPUs (Volta → Blackwell, including Hopper).
 Images on Docker Hub:
 
 - [`swamp7/pearl-miner`](https://hub.docker.com/r/swamp7/pearl-miner) — original (alpha-miner v1.5, single binary)
-- [`swamp7/pearl-miner-1.7.2`](https://hub.docker.com/r/swamp7/pearl-miner-1.7.2) — current (alpha v1.7.2, tarball release)
+- [`swamp7/pearl-miner-1.7.2`](https://hub.docker.com/r/swamp7/pearl-miner-1.7.2) — stable (alpha v1.7.2, tarball release)
+- [`swamp7/pearl-miner-1.7.3-beta`](https://hub.docker.com/r/swamp7/pearl-miner-1.7.3-beta) — beta (alpha v1.7.3, tarball release)
 
 ## Usage
 
