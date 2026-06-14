@@ -46,7 +46,8 @@ Pool endpoints:
 <img width="1333" height="1836" alt="image" src="https://github.com/user-attachments/assets/98f2ca3c-e803-47b9-94e2-5a8705649662" />
 
 ***
---pool us1.alphapool.tech:5566 --address wallet --worker Vast
+```bash
+    --pool us1.alphapool.tech:5566 --address wallet --worker Vast
+```
 ***
-
 
