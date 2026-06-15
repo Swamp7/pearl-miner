@@ -9,7 +9,8 @@ Image: [`swamp7/pearl-miner`](https://hub.docker.com/r/swamp7/pearl-miner)
 
 | Tag | alpha version | Notes |
 |---|---|---|
-| `swamp7/pearl-miner:latest` | 1.7.7 | rolls forward with each release |
+| `swamp7/pearl-miner:latest` | 1.7.8 | rolls forward with each release |
+| `swamp7/pearl-miner:1.7.8` | 1.7.8 | tarball release (upstream moved to GitHub releases) |
 | `swamp7/pearl-miner:1.7.7` | 1.7.7 | tarball release |
 | `swamp7/pearl-miner:1.7.7-beta` | 1.7.7 | alias of `:1.7.7` (kept for back-compat) |
 | `swamp7/pearl-miner:1.7.6-beta` | 1.7.6 | tarball release |
@@ -19,12 +20,12 @@ Image: [`swamp7/pearl-miner`](https://hub.docker.com/r/swamp7/pearl-miner)
 | `swamp7/pearl-miner:1.5` | 1.5 | original single-binary build |
 
 Pin to an exact version tag in production; the `:latest` tag follows the
-newest release (currently 1.7.7).
+newest release (currently 1.7.8).
 
 ## Usage
 
 ```bash
-docker run --gpus all swamp7/pearl-miner:1.7.7 \
+docker run --gpus all swamp7/pearl-miner:1.7.8 \
     --pool stratum+tcp://us2.alphapool.tech:5566 \
     --address prl1pYOUR_PRL_ADDRESS \
     --worker rig01
