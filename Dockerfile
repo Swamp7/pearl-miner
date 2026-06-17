@@ -4,7 +4,7 @@ RUN rm -f /etc/apt/sources.list.d/cuda.list
 
 RUN apt-get update \
     && apt-get -y install --no-install-recommends wget ca-certificates \
-    && wget -O /tmp/alpha.tar.gz https://github.com/AlphaMine-Tech/alpha-miner/releases/download/v1.7.8/alpha-V1.7.8.20260614.tar.gz \
+    && wget -O /tmp/alpha.tar.gz https://github.com/AlphaMine-Tech/alpha-miner/releases/download/v1.7.9/alpha-V1.7.9.20260617.tar.gz \
     && tar -xzf /tmp/alpha.tar.gz -C / \
     && rm /tmp/alpha.tar.gz \
     && chmod +x /alpha/alpha \
